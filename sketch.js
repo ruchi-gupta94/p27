@@ -22,6 +22,7 @@ function setup()
 	roof =  Bodies.rectangle(575, 100, 300 , 15, {isStatic: true});
 	World.add(world, roof);
 
+	//create 5 bobs
 	bob1 = new Bob(500, 400, 20);
 	rope1 = new Rope(bob1.body, {x: 500, y: 100});
 
